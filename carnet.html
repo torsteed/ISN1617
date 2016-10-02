@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Site de Thomas</title>
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body>
+	<div id="entete">
+		<h1>Site internet de Thomas P.</h1>
+		<h2>Carnet de bord</h2>
+	</div>
+	<div id="menu">
+		<h2>Menu</h2>
+		<ul>
+			<li><a href="index.html">Accueil</a></li>
+			<li><a href="carnet.html">Carnet de bord</a></li>
+			<li><a href="about.html">A propos</a></li>
+			<li><a href="carnet.html" onclick="alert('Page à venir prochainement')">MaPagePHP.php</a></li>
+		</ul>
+	</div>
+	<div id="contenu">
+		<h1>Carnet de bord</h1>
+		<p>Résumé des séances d'ISN et avancement des différents projets</p>
+		<!-- Finir le tableau et les bordures -->
+		<table id="tableau" cellpadding="10">
+			<thead>
+				<tr>
+					<td>
+						<span class="gras" class="tabdate"><p>Date</p></span>
+					</td>
+					<td>
+						<span class="gras"><p>Résumé de la séance</p></span>
+					</td>				
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="tabdate">
+						<p>Vendredi <br/>30 septembre</p>
+					</td>
+					<td>
+						<ul>
+							<li><p>Création du tableau dans carnet.html</p></li>
+							<li><p>Positionnement du tableau avec style.css</p></li>					
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td class="tabdate">
+						<p>Vendredi <br/>23 septembre</p>
+					</td>
+					<td>
+						<ul>
+							<li><p>Correction des problèmes de positionnement CSS du site</p></li>				
+							<li><p>Fact 5</p></li>		
+							<li><p>Fact 6</p></li>
+						</ul>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>410_thomasP</p>
+	</div>
+	<footer>
+        <div id="validator">
+            <p><a href="http://validator.w3.org/check?uri=referer">
+                      <img src="/ico/w3chtml5.png" width="88" height="31" alt="HTML5 Valide !" />
+                </a>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                      <img src="/ico/vcss.gif" width="88" height="31" alt="CSS Valide !" />
+                </a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
